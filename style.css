@@ -1,0 +1,120 @@
+#api_key:focus {
+    border: none;
+    box-shadow: none;
+}
+.btn-success {
+    background-color: rgb(43, 206, 161) !important;
+   border: none;
+}
+.btn-primary {
+    background-color: rgb(5, 175, 197) !important;
+    border: none;
+}
+
+.select2-container {
+    z-index: 9999;
+}
+
+.toast {
+    top: 40px;
+    right: 10px;
+}
+
+body {
+    font-size: 15px;
+}
+aside {
+    background: #6151fa;
+}
+.nav-pills .nav-link:hover.active,
+.nav-pills .nav-link.active {
+    background-color: #6151fa !important;
+}
+.nav-pills .nav-link {
+    background-color: #ddd !important;
+    color: #67748e;
+    margin-top: 5px;
+}
+.nav-pills .nav-link:not(.active):hover {
+    opacity: .85;
+}
+aside .opm-logo {
+    width: 100%;
+    max-width: 150px;
+}
+main {
+    padding: 25px 0;
+}
+main .sec-title {
+    font-size: 20px;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+main #campaigns {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#wpcontent {
+    padding-left: 0;
+}
+main .input-group {background: #eee;}
+main .form-control {
+    padding: .5rem 1.5rem !important;
+    background-color: #eee;
+}
+main tr td, main thead th {
+    text-align: center;
+    font-weight: 400;
+    vertical-align: middle;
+    color: #67748e;
+}
+main thead th {background: #f1f1f1 !important; color: #5974a2;}
+main thead th:first-child,
+main tr td:first-child {
+    text-align: left;
+    padding: .7rem 1.5rem !important;
+}
+main tr:last-child td {
+    border-bottom: none;
+}
+main .select2-container--default .select2-selection--multiple {
+    border: 1px solid #ddd !important;
+    background: #eee;
+    min-height: 45px;
+    text-align: left;
+    padding: 5px 10px;
+}
+main .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    border: none;
+    position: absolute;
+    left: 6px;
+    top: 1px;
+}
+main .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: rgb(249, 250, 253);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 2px 2px 2px 25px;
+    font-size: 13px;
+}
+main .select2-container .select2-search--inline .select2-search__field {
+    height: 29px;
+}
+main .nav-fill .nav-item, main .nav-fill>.nav-link {
+    text-align: left;
+}
+main tr .btn:hover,
+main tr button:hover {
+    opacity: .85;
+}
+@media (max-width: 767.98px) {
+    aside {
+        border-radius: 0;
+    }
+    .auto-fold #wpcontent {
+        padding-left: 0;
+    }
+ }
